@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(imagenes/fondo.gif);
+    background-size:  cover;
+}
+.inicio{
+    top: 250px;
+    left: 500px;
+    height: 200px;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10%;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: cornflowerblue;
+    background-color: brown;
+    display: block;
+}
+.botones{
+    top: 20px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    position: relative;
+}
+.elevador{
+    top: 50px;
+    left: 350px;
+    height: 550px;
+    width: 500px;
+    border-radius: 10%;
+    position: absolute;
+    display: none;
+    background-image: url(imagenes/edificio.png);
+}
+#ele{
+    left: 175px;
+    position: absolute;
+}
+.per{
+    left: 60px;
+    position: absolute;
+}
+#per5{
+    top: 40px;
+}
+#per4{
+    top: 130px;
+}
+#per3{
+    top: 220px;
+}
+#per2{
+    top: 310px;
+}
+#per1{
+    top: 400px;
+}
+.T{
+    position: absolute;
+    left: 90px;
+    font-size: 20px;
+}
+#p5{
+    top: 70px;
+}
+#p4{
+    top: 160px;
+}
+#p3{
+    top: 250px;
+}
+#p22{
+    top: 340px;
+}
+#p11{
+    top: 430px;
+}
+#puntos{
+    top: 490px;
+    left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+    font-size: 25px;
+    position: absolute;
+}
+#capa{
+    top: 490px;
+    left: 335px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+    font-size: 25px;
+    position: absolute;
+}
